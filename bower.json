@@ -1,0 +1,9 @@
+{
+  "name": "acme-ecommerce",
+  "dependencies": {
+    "foundation-sites": "6.3.1",
+    "jquery": "~2.2",
+    "motion-ui": "1.2.2",
+    "slick-carousel": "1.6.0"
+  }
+}

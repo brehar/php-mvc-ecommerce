@@ -1,0 +1,21 @@
+{
+	"name": "acme-ecommerce",
+	"version": "0.0.1",
+	"description": "A fully-featured e-commerce application built with PHP using a MVC paradigm",
+	"person": {
+		"name": "Brett Hartman",
+		"email": "brehardev@gmail.com",
+		"url": "http://bretthartman.me"
+	},
+	"private": true,
+	"main": "public/index.php",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/brehar/php-mvc-ecommerce.git"
+	},
+	"license": "MIT",
+	"dependencies": {
+		"gulp": "~3.9",
+		"laravel-elixir": "~5.0.0"
+	}
+}
