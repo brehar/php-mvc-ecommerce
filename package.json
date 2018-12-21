@@ -2,7 +2,7 @@
 	"name": "acme-ecommerce",
 	"version": "0.0.1",
 	"description": "A fully-featured e-commerce application built with PHP using a MVC paradigm",
-	"person": {
+	"author": {
 		"name": "Brett Hartman",
 		"email": "brehardev@gmail.com",
 		"url": "http://bretthartman.me"
