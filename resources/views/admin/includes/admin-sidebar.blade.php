@@ -5,10 +5,12 @@
     </div>
     <ul class="vertical menu">
         <li><a href="/admin"><i class="fas fa-tachometer-alt fa-fw" aria-hidden="true"></i>&nbsp; Dashboard</a></li>
-        <li><a href="#">2</a></li>
-        <li><a href="#">3</a></li>
-        <li><a href="#">4</a></li>
-        <li><a href="#">5</a></li>
-        <li><a href="#">6</a></li>
+        <li><a href="/admin/users"><i class="fas fa-users fa-fw" aria-hidden="true"></i>&nbsp; Users</a></li>
+        <li><a href="/admin/product/create"><i class="fas fa-plus fa-fw" aria-hidden="true"></i>&nbsp; Add Product</a></li>
+        <li><a href="/admin/manage_inventory"><i class="fas fa-edit fa-fw" aria-hidden="true"></i>&nbsp; Manage Products</a></li>
+        <li><a href="/admin/product/categories"><i class="fas fa-compress fa-fw" aria-hidden="true"></i>&nbsp; Categories</a></li>
+        <li><a href="/admin/users/orders"><i class="fas fa-shopping-cart fa-fw" aria-hidden="true"></i>&nbsp; View Orders</a></li>
+        <li><a href="/admin/users/payments"><i class="far fa-money-bill-alt fa-fw" aria-hidden="true"></i>&nbsp; Payments</a></li>
+        <li><a href="/admin/logout"><i class="fas fa-sign-out-alt fa-fw" aria-hidden="true"></i>&nbsp; Logout</a></li>
     </ul>
 </div>
