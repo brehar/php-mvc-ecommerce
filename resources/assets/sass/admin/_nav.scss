@@ -1,25 +1,32 @@
+$background-color: #2a3f54;
+$image-background-color: #e93f49;
+$text-color: #fff;
+
 .nav {
-  background-color: #2a3f54;
+  background-color: $background-color;
 
   .menu > li > a {
-    color: #fff;
+    color: $text-color;
     font-size: 1.2rem;
 
     &:active,
     &:focus,
     &:hover {
-      background-color: darken(#2a3f54, 8%);
+      background-color: darken($background-color, 8%);
     }
   }
 }
 
 .nav-welcome {
   align-items: center;
+  background-color: $image-background-color;
   display: flex;
   justify-content: center;
 
   h4 {
-    color: #fff;
+    color: $text-color;
+    font-size: 1.5rem;
+    font-weight: 500;
     margin: 0;
     padding: 0;
   }
@@ -27,7 +34,8 @@
   img {
     border-radius: 50%;
     height: 40px;
-    margin-left: 10px;
+    margin: 3px 0 3px 10px;
+    padding: 0;
     width: 40px;
   }
 }
