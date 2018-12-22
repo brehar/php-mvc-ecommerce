@@ -18,6 +18,12 @@ class CSRFToken
 
 	public static function verifyCSRFToken($requestToken): bool
 	{
-		return Session::has('token') && Session::get('token') === $requestToken;
+		if (Session::has('token') && Session::get('token') === $requestToken) {
+			Session::remove('token');
+
+			return true;
+		}
+
+		return false;
 	}
 }
