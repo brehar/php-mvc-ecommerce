@@ -28,4 +28,23 @@ class Request
 
 		return $data[$key];
 	}
+
+	public static function has($key): bool
+	{
+		return array_key_exists($key, self::all(true));
+	}
+
+	public static function old($key, $value)
+	{
+		$data = self::all();
+
+		return $data[$key][$value] ?? null;
+	}
+
+	public static function refresh(): void
+	{
+		$_GET = [];
+		$_POST = [];
+		$_FILES = [];
+	}
 }
