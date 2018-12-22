@@ -12,7 +12,9 @@
 		"altorouter/altorouter": "^1.2",
 		"philo/laravel-blade": "^3.1",
 		"illuminate/database": "^5.7",
-		"phpmailer/phpmailer": "^6.0",
+		"phpmailer/phpmailer": "^6.0"
+	},
+	"require-dev": {
 		"filp/whoops": "^2.3"
 	},
 	"config": {
