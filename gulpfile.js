@@ -17,7 +17,7 @@ elixir(mix => {
 		'resources/assets'
 	);
 
-	mix.copy(`resources/assets/${bowerPath}/components-font-awesome/webfonts`, 'public/fonts/font-awesome');
+	mix.copy(`resources/assets/${bowerPath}/components-font-awesome/webfonts`, 'public/webfonts');
 
 	mix.scripts(
 		[
