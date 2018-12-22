@@ -15,7 +15,8 @@ elixir(mix => {
 		[
 			`${bowerPath}/jquery/dist/jquery.min.js`,
 			`${bowerPath}/foundation-sites/dist/js/foundation.min.js`,
-			`${bowerPath}/slick-carousel/slick/slick.min.js`
+			`${bowerPath}/slick-carousel/slick/slick.min.js`,
+			'js/*.js'
 		],
 		'public/js/app.js',
 		'resources/assets'
