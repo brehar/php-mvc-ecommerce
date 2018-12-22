@@ -3,6 +3,7 @@
 @import '../bower/vendor/motion-ui/src/motion-ui';
 
 @import 'admin/nav';
+@import 'admin/titlebar';
 
 @include motion-ui-transitions;
 @include motion-ui-animations;

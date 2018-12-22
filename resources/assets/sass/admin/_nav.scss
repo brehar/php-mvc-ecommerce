@@ -32,6 +32,7 @@ $text-color: #fff;
   }
 
   img {
+    border: 1px solid darken($background-color, 15%);
     border-radius: 50%;
     height: 40px;
     margin: 3px 0 3px 10px;
