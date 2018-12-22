@@ -21,7 +21,7 @@ class ErrorHandler
 				'to' => getenv('ADMIN_EMAIL'),
 				'subject' => 'Internal Server Error',
 				'view' => 'errors',
-				'name' => getenv('APP_NAME') . 'Admin',
+				'name' => getenv('APP_NAME') . ' Admin',
 				'body' => $error
 			];
 

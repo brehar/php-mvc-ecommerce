@@ -1,3 +1,6 @@
 vendor
 .env
 bootstrap/cache
+public/css
+public/fonts
+public/js
