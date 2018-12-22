@@ -1,0 +1,33 @@
+.nav {
+  background-color: #2a3f54;
+
+  .menu > li > a {
+    color: #fff;
+    font-size: 1.2rem;
+
+    &:active,
+    &:focus,
+    &:hover {
+      background-color: darken(#2a3f54, 8%);
+    }
+  }
+}
+
+.nav-welcome {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+
+  h4 {
+    color: #fff;
+    margin: 0;
+    padding: 0;
+  }
+
+  img {
+    border-radius: 50%;
+    height: 40px;
+    margin-left: 10px;
+    width: 40px;
+  }
+}

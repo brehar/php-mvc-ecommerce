@@ -3860,6 +3860,31 @@ a.thumbnail {
 .clearfix::after {
   clear: both; }
 
+.nav {
+  background-color: #2a3f54; }
+  .nav .menu > li > a {
+    color: #fff;
+    font-size: 1.2rem; }
+    .nav .menu > li > a:active, .nav .menu > li > a:focus, .nav .menu > li > a:hover {
+      background-color: #1c2b39; }
+
+.nav-welcome {
+  -ms-flex-align: center;
+  align-items: center;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+  justify-content: center; }
+  .nav-welcome h4 {
+    color: #fff;
+    margin: 0;
+    padding: 0; }
+  .nav-welcome img {
+    border-radius: 50%;
+    height: 40px;
+    margin-left: 10px;
+    width: 40px; }
+
 .slide-in-down.mui-enter {
   transition-duration: 500ms;
   transition-timing-function: linear;
